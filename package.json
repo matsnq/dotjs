@@ -1,0 +1,19 @@
+{
+  "name": "frontend-framework",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter framework build",
+    "dev": "pnpm --filter example dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitea.kood.tech/martentsimolonskas/frontend-framework.git"
+  },
+  "license": "ISC",
+  "description": "DotJS front-end framework workspace with example project",
+  "author": "Marten Tsimolonskas",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
